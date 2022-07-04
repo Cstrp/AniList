@@ -7,14 +7,7 @@ const submit = document.querySelector('button')
 
 const searchURL = 'https://api.jikan.moe/v4/anime?q=&limit=5'
 const idURL = 'https://api.jikan.moe/v4/anime/{id}'
-// fetch(searchURL)
-//     .then((res)=> {
-//         return res.json()
-//     })
-//     .then((data) => {
-//         console.log(data)
-//     })
-// class Create
+
 console.log('Hello world!')
 
 fetch(searchURL)
@@ -43,3 +36,12 @@ axios
 // https://api.jikan.moe/v4/anime?q=${searchTerm}=&limit=30
 
 // https://api.jikan.moe/v4/anime
+
+// fetch(searchURL)
+//     .then((res)=> {
+//         return res.json()
+//     })
+//     .then((data) => {
+//         console.log(data)
+//     })
+// class Create
