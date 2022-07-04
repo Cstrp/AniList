@@ -1,5 +1,6 @@
 import './styles/main.scss'
 import axios from 'axios'
+import { addSyntheticLeadingComment } from 'typescript'
 
 const search = document.querySelector('.search')
 const submit = document.querySelector('button')
